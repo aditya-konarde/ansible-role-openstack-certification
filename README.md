@@ -157,8 +157,8 @@ Available options for `openstack_certification_supported_apis_and_extensions` ar
   * `data-sources`
   * `plugins`
 
-## Example
-
+## Example Playbook
+To test this role, one can use the following sample playbook. 
 ```
 ---
 - hosts: undercloud
