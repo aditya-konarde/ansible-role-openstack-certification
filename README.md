@@ -1,8 +1,8 @@
 # ansible-role-openstack-certification
 
-An Ansible role to automate the certification process
+An Ansible role to automate the Red Hat certification process, specifically for OpenStack certification.
 
-Forked from the redhat-cip team's ansible-role-openstack-certification and modified to work for qa environment as well
+Forked from the redhat-cip team's ansible-role-openstack-certification and modified to work for qa environment as well.
 
 ## Pre-requisites
 
