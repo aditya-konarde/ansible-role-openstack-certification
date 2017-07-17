@@ -2,6 +2,8 @@
 
 An Ansible role to automate the certification process
 
+Forked from the redhat-cip team's ansible-role-openstack-certification and modified to work for qa environment as well
+
 ## Pre-requisites
 
 In order to fully understand the content of this ansible role, one needs to be
