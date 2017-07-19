@@ -1,0 +1,10 @@
+---
+- hosts: undercloud
+  remote_user: stack
+  become: yes
+  vars:
+    openstack_certification_supported_apis_and_extensions:
+      - volumes
+      - backups
+  roles:
+    - openstack-certification
