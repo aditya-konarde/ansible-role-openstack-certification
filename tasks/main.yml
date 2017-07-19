@@ -8,8 +8,9 @@
   package:
     name: '{{ item }}'
   with_items:
-    - redhat-certification
-    - redhat-certification-openstack
+    - http://download.eng.bos.redhat.com/brewroot/packages/redhat-certification/4.12/20170719.el7/noarch/redhat-certification-backend-4.12-20170719.el7.noarch.rpm
+    - http://download.eng.bos.redhat.com/brewroot/packages/redhat-certification/4.12/20170719.el7/noarch/redhat-certification-4.12-20170719.el7.noarch.rpm
+    - http://download.eng.bos.redhat.com/brewroot/packages/redhat-certification/4.12/20170719.el7/noarch/redhat-certification-openstack-4.12-20170719.el7.noarch.rpm
 
 - name: Test if rhosp-release is available (OSP10 and above)
   package:
