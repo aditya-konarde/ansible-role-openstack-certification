@@ -14,7 +14,7 @@ openstack_certification_output_filename: cert.txt
 
 # Enable downloading the results file (/var/rhcert/results.xml)
 #
-openstack_certification_results_download: false
+openstack_certification_results_download: true
 
 # Test type that should be passed to rhcert-ci run command
 # Allowed options are:
@@ -31,7 +31,7 @@ openstack_certification_tests:
   - self_check
   - supportable
   - director
-  - tempest_config
+#  - tempest_config
 #  - sahara
 #  - cinder_consistency_groups
 #  - cinder_volumes
