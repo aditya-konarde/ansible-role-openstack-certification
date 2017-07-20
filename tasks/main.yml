@@ -80,6 +80,12 @@
       flat: yes
   when: openstack_certification_results_download|bool
 
+# #Enable submitting test results
+#   - name: Submit results file
+#     become: True
+#     shell: 'rhcert-ci submit'
+#   when: openstack_certification_results_submit|bool
+
 - name: Tempest cleanup
   become: True
   file:
