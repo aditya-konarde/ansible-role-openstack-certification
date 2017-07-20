@@ -18,9 +18,9 @@ openstack_certification_results_download: true
 
 # Test type that should be passed to rhcert-ci run command
 # Allowed options are:
-#   - test (default)
-#   - tag
-#   - platform
+#   - test (default) - run the selected individual test
+#   - tag - run all the tests that have been tagged under the set tags
+#   - platform - Run all the tests for specific platform
 #
 openstack_certification_test_type: test
 
@@ -91,7 +91,6 @@ openstack_certification_tests:
 
 # If one wants to enable program rather than test
 # make sure to set openstack_certification_test_type: program
-#
 # openstack_certification_program:
 #   - cloud
 #   - openstack
